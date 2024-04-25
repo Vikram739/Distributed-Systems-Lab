@@ -1,0 +1,16 @@
+*****************Windows***********************
+Open cmd 
+1. javac *.java
+2. rmiregistry
+3. java MultiplicationServer
+Open Another cmd
+4. java MultiplicationClient
+
+
+*****************Ubuntu***********************
+Open terminal 
+1. javac *.java
+2. rmiregistry 
+3. java MultiplicationServer
+Open Another terminal
+4. java MultiplicationClient

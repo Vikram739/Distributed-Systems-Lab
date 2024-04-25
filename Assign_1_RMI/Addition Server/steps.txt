@@ -1,0 +1,16 @@
+*****************Windows***********************
+Open cmd 
+1. javac *.java
+2. rmiregistry
+3. java AdditionServer
+Open Another cmd
+4. java AdditionClient
+
+
+*****************Ubuntu***********************
+Open terminal 
+1. javac *.java
+2. rmiregistry 
+3. java AdditionServer
+Open Another cmd
+4. java AdditionClient
