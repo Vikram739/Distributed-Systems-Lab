@@ -1,0 +1,42 @@
+This file all remaining assignment 7 codes....just change it in above calculator code...
+
+***Fahrenheit as Input and Display Celsius and Vice Veersa...
+
+// Celsius to Fahrenheit conversion method
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9/5) + 32;
+    }
+
+    // Fahrenheit to Celsius conversion method
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5/9;
+    }
+
+
+
+***Miles as Input and Display Kilometer as Output and vice versa
+ // Miles to Kilometers conversion method
+    public static double milesToKilometers(double miles) {
+        return miles * 1.60934;
+    }
+
+    // Kilometers to Miles conversion method
+    public static double kilometersToMiles(double kilometers) {
+        return kilometers / 1.60934;
+    }
+
+
+***Create a Simple Interest Calculator
+
+// Method to calculate simple interest
+    public static double calculateSimpleInterest(double principal, double rate, double time) {
+        return (principal * rate * time) / 100;
+    }
+
+
+***takes User’s Name as Input and Display Hello User_Name Entered by User 
+
+// Method to generate greeting message
+    public static String generateGreeting(String name) {
+        return "Hello " + name;
+    }
