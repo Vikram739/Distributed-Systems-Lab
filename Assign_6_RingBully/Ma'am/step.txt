@@ -1,0 +1,10 @@
+Steps :
+***********Ubuntu************
+Open terminal 
+  [Bully Algorithm ]
+	1. javac Bully.java
+	2. java Bully
+
+  [Bully Algorithm ]
+	1. javac Ring.java
+	2. java Ring	

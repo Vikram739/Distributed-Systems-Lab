@@ -1,0 +1,7 @@
+Steps :
+***********Ubuntu************
+Open terminal 
+	1. javac BullyRing.java
+	2. java BullyRing
+
+  	
