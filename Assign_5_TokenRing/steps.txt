@@ -1,0 +1,5 @@
+Steps :
+***********Ubuntu************
+Open terminal 
+	1. javac TokenRing.java
+	2. java TokenRing
