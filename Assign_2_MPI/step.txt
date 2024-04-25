@@ -1,0 +1,24 @@
+*******Ubuntu*****
+Steps to set OpenMPI
+1) Download the zip file and extract all 
+  Zip File: ->  https://sourceforge.net/projects/mpjexpress/files/releases/
+  Note :(It is provided in the folder )
+ 
+2) Open bashrc file using below command
+	nano ~/.bashrc
+
+3) In bashrc file set below path according to your system 
+	export MPJ_HOME=/home/usr/Downloads/mpj-v0_44
+	export PATH=$MPJ_HOME/bin:$PATH
+4) Run below command to save changes in bashrc
+	source ~/.bashrc
+
+	
+Step to execute code  [DistributedSum ]
+	1) javac -cp $MPJ_HOME/lib/mpj.jar DistributedSum.java
+        2) $MPJ_HOME/bin/mpjrun.sh -np 4 DistributedSum
+
+Step to execute code  [DistributedMul ]
+	1) javac -cp $MPJ_HOME/lib/mpj.jar DistributedMul.java
+        2) $MPJ_HOME/bin/mpjrun.sh -np 4 DistributedMul
+

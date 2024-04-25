@@ -1,0 +1,29 @@
+***************Windows**************
+1.download & install jdk-8(64bit)
+2. install netbeans 8.2
+3.open netbeans and create new project
+4.java web project
+5. select glassfish server
+6.right click on project->new->web service....create service
+7.go to design tab above code...add opration.
+8.add name ,datatype and parameters
+9.change return values if needed.
+10.click on project->build...then deploy.
+11.click on service and test webservice...
+
+12.to create ui...create same another client project.
+13.write html code in index.html.
+14.right click on project->new->web service client->select location of previous code.
+15.right click on project and create servlet with given ssame name....check checkbox carefully...
+16.drag all methods then get numbers by req.getparameter.
+17.call all 4 methods by passing parameters to it.
+18.clean and build client.
+19.open index.html right click and run file.
+
+
+if server not starting....
+1. go to cmd as administrator.
+2.execute netstat -aon | find ":8080" |find "LISTENING"
+3.you get a port no then just go to task manager.
+4.goto details find given port number and end task.
+5.now start glassfish server.
