@@ -40,3 +40,21 @@ public class DistributedSum {
     }
 }
 
+// // MPI stands for Message Passing Interface. It's a standardized and portable message-passing system designed to function on a wide variety of parallel computing architectures. MPI is commonly used for parallel computing in scientific and engineering applications, particularly in distributed-memory systems. It allows processes to communicate with each other by sending and receiving messages. This enables the development of parallel algorithms and programs that can run efficiently across multiple processors or nodes in a computing cluster.
+// The working of MPI involves several key concepts and mechanisms:
+
+// 1. **Initialization**: MPI programs typically start with initializing the MPI environment using `MPI_Init`. This sets up communication channels between processes and prepares them for message passing.
+
+// 2. **Process Management**: MPI programs run as a collection of parallel processes, each with its own unique identifier or rank. You can get the total number of processes and the rank of each process using `MPI_Comm_size` and `MPI_Comm_rank`, respectively.
+
+// 3. **Communication**: MPI provides a variety of communication functions for processes to exchange data. The main communication operations include point-to-point communication (sending and receiving messages between specific processes) and collective communication (involving all processes in a communicator). Examples of point-to-point communication functions are `MPI_Send` and `MPI_Recv`, while collective communication functions include `MPI_Bcast` (broadcast) and `MPI_Reduce` (reduce).
+
+// 4. **Blocking and Non-blocking Operations**: MPI supports both blocking and non-blocking communication operations. In blocking communication, the sender and receiver are synchronized until the message is sent or received. Non-blocking operations allow the sender to continue execution without waiting for the completion of the communication.
+
+// 5. **Data Types**: MPI allows communication of data in various formats, including basic data types like integers and floating-point numbers, as well as derived data types like arrays and structures. These data types can be defined using `MPI_Type_create_struct` or other similar functions.
+
+// 6. **Error Handling**: MPI provides error handling mechanisms to detect and handle errors during program execution. Functions like `MPI_Error_string` and `MPI_Abort` are used for error reporting and aborting MPI programs, respectively.
+
+// 7. **Finalization**: Once the MPI program has completed its tasks, it should be finalized using `MPI_Finalize`. This cleans up resources associated with the MPI environment and terminates the MPI execution.
+
+// Overall, MPI enables parallel programming by providing a standardized interface for communication and coordination among parallel processes, allowing developers to create efficient and scalable parallel applications for various parallel computing architectures.

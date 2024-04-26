@@ -19,3 +19,5 @@ public interface AdditionService extends Remote {
 // RMI handles the details of communication between the client and server, including parameter marshalling (converting method parameters and return values into a format suitable for transmission over the network) and handling network-related errors.
 
 // RMI is often used in distributed computing scenarios where you have a client-server architecture and need to invoke methods on objects that reside on remote machines. It provides a convenient way to interact with remote objects as if they were local, simplifying the development of distributed applications in Java.
+
+// The RMI (Remote Method Invocation) is an API that provides a mechanism to create distributed application in java. The RMI allows an object to invoke methods on an object running in another JVM.
